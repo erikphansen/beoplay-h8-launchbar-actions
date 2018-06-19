@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>beoplay-icon-Template.png</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.erikphansen.LaunchBar.action.BeoplayH8Connect</string>
+	<key>CFBundleName</key>
+	<string>Beoplay H8 - Connect</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.0</string>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBAuthor</key>
+		<string>Erik P. Hansen</string>
+		<key>LBEmail</key>
+		<string>eph@erikphansen.com</string>
+		<key>LBRequirements</key>
+		<string>A Bluetooth deviced named EXACTLY "Beoplay H8"</string>
+		<key>LBSummary</key>
+		<string>Attempt to connect to the Bluetooth device named "Beoplay H8" using AppleScript to programmatically navigate the Bluetooth menu in the macOS status bar.</string>
+		<key>LBTwitter</key>
+		<string>@eirkeirkeirk</string>
+		<key>LBWebsiteURL</key>
+		<string>blog.erikphansen.com</string>
+	</dict>
+	<key>LBRequirements</key>
+	<string>A Bluetooth deviced named EXACTLY "Beoplay H8"</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBScriptName</key>
+			<string>default.scpt</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
